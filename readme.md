@@ -1,4 +1,4 @@
-[![MIT License][license-image]][license-url] [![Gitter chat](https://badges.gitter.im/totaljs/framework.png)](https://gitter.im/totaljs/jComponent)
+[![MIT License][license-image]][license-url]
 
 [![Support](https://www.totaljs.com/img/button-support.png?v=2)](https://www.totaljs.com/support/)
 
@@ -67,9 +67,18 @@ And run it `$ node debug.js`. That's all.
 
 ---
 
-### Good to know
+## Good to know
 
 - livereload uses port `35729` with hostname `127.0.0.1`
 - it works with Total.js apps only!!!
 - you can feel a small delay
 - __important__ you can work with only the one instance of Total.js app and livereload feature
+
+## Contact
+
+- (c) 2012-2018 by Peter Širka - <petersirka@gmail.com>
+- contact form <https://www.totaljs.com/contact/>
+- <info@totaljs.com>
+
+[license-image]: https://img.shields.io/badge/license-MIT-blue.svg?style=flat
+[license-url]: license.txt
