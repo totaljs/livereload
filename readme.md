@@ -12,7 +12,7 @@ This script tries to connect via WebSocket to `ws://127.0.0.1:35729`. Total.js `
 
 Just append this script to your website:
 
-- CDN script: `https://cdn.totaljs.com/livereload.js` (only __250 bytes__ without GZIP compression)
+- CDN script: `https://cdn.totaljs.com/livereload.js` (only __400 bytes__ without GZIP compression)
 
 ```html
 <html>
@@ -23,7 +23,10 @@ Just append this script to your website:
         Your HTML code.
 
         <!-- LIVE RELOAD SCRIPT -->
-        <script src="https://cdn.totaljs.com/livereload.js" async></script>
+        <script src="https://cdn.totaljs.com/livereload.js"></script>
+
+        <!-- OR WITH A CUSTOM URL -->
+        <script src="https://cdn.totaljs.com/livereload.js" data-url="ws://livereload.totaljs.com"></script>
 
     </body>
 </html>
@@ -59,6 +62,8 @@ const options = {};
 // !!! HERE !!!
 // (Optional) Enables live reloading
 options.livereload = true;
+// options.livereload = 80; // Port number
+
 
 require('total.js/debug')(options);
 ```
